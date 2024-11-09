@@ -1,0 +1,17 @@
+aiohappyeyeballs
+aiohttp
+aiosignal
+attrs
+certifi
+charset-normalizer
+discord
+discord.py
+frozenlist
+idna
+multidict
+pillow
+pip
+propcache
+requests
+urllib3
+yarl
