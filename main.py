@@ -92,4 +92,4 @@ async def giverole(ctx, role: discord.Role, member1: discord.Member, member2: di
         await ctx.send(f"Роль '{role.mention}' была выдана следующим пользователям: {member1.mention}, {member2.mention}.")
 
 
-bot.run(["BOT_TOKEN"])
+bot.run(BOT_TOKEN)
