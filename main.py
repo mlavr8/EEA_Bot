@@ -16,10 +16,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
 
-file = open("config.json", "r")
-config = json.load(file)
-
-bot = commands.Bot(config["prefix"], intents=intents)
+bot = commands.Bot(command_prefix=".", intents=intents)
 
 @bot.event
 async def on_ready():
@@ -27,7 +24,6 @@ async def on_ready():
 
 
 background_image_path = "welcomeeea.jpg"  # welcome
-
 
 @bot.event
 async def on_member_join(member):
